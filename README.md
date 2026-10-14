@@ -2,7 +2,7 @@
 
 Metrónomo para músicos con interfaz en **Flutter/Dart** y un motor de audio propio en **C++** (miniaudio), conectados mediante `dart:ffi`. Además de un compás fijo, permite armar **secuencias de compases con cambios de métrica** (por ejemplo 5/4 y luego 7/8) que se repiten en bucle.
 
-![Pantalla principal](docs/screenshots/menu.png) <!-- TODO: agregar captura -->
+![Pantalla principal](docs/screenshots/menu.jpg) <!-- TODO: agregar captura -->
 
 ## Características
 
