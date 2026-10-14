@@ -1,0 +1,70 @@
+# ============================================================
+# Root .gitignore
+# Repo layout: main.cpp, miniaudio.h, sounds/ at the root,
+# Flutter project inside metronome_app/
+# ============================================================
+
+# ---------- C++ build outputs ----------
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+*.exp
+*.a
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# ---------- Flutter / Dart (generated) ----------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+migrate_working_dir/
+
+# ---------- Android (generated / secrets) ----------
+.gradle/
+local.properties
+GeneratedPluginRegistrant.java
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+key.properties
+*.jks
+*.keystore
+
+# ---------- iOS / macOS (generated) ----------
+**/Pods/
+**/ios/Flutter/.last_build_id
+**/Flutter/ephemeral/
+**/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# ---------- Desktop runners (generated) ----------
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# ---------- IDE / editor ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Logs ----------
+*.log
